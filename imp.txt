@@ -1,0 +1,38 @@
+docker run hello
+docker login -u username
+
+docker tag img username/img 
+docker push username/img
+
+docker pull username/img
+
+
+docker pull tomcat:latest
+docker run -d -p 8080:8080 tomcat:latest
+docker images
+
+git init
+git clone ttp.git
+git remote add origin htpp.git
+git add .
+git commit -m "msg"
+git push -u origin master
+git add .
+git commit -m "gff"
+git push 
+
+vi ss.sh
+
+
+
+cd 
+ls
+pwd
+
+cd/mnt/d
+chmod +x ss.sh
+./ss.sh
+
+mvun testng selenium 
+
+java -jar jenkins.war
